@@ -1,0 +1,14 @@
+.contenedor-caja{
+    display: block;
+    flex: 1;
+    margin: 20px;
+}
+.caja{
+    min-width: 200px;
+    padding: 5px;
+    line-height: 150%;
+}
+.titulo-caja{
+    font-size: 1.4em;
+    text-align: center;
+}

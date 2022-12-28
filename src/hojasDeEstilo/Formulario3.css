@@ -1,0 +1,15 @@
+.contenedor-cajas{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor-formulario3{
+    background-color: #FFFFFF;
+    min-width: 400px;
+    max-width: 1000px;
+    min-height: 300px;
+    padding: 20px;
+    margin: 10px;
+}

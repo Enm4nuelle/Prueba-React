@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Formulario1 from "./pages/Formulario1";
+import Formulario2 from "./pages/Formulario2";
+import Formulario3 from "./pages/Formulario3";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/formulario1" element={<Formulario1/>}/>
+                <Route path="/formulario2" element={<Formulario2/>}/>
+                <Route path="/formulario3" element={<Formulario3/>}/>
+            </Routes>
+        </div>
+    );
 }
 
 export default App;
